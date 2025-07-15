@@ -1,0 +1,132 @@
+
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #333;
+      color: white;
+    }
+
+    .navbar {
+        border-bottom: none;
+        box-shadow: none;
+    }
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #f1ae28;
+    }
+    .arimg{
+        height: 35rem;
+        border-radius: 12.5%;
+    }
+    .intro{
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgar{
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+    }
+    span{
+        color: rgb(243, 157, 44);
+    }
+    #about-me > div{
+        margin: 5rem;
+    }
+    .hello{
+        font-size: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .para{
+        font-size: 1rem;
+    }
+
+    .copyright{
+        color: white;
+        text-align: center;
+        padding: 2rem;
+        margin-bottom: 0px;
+    }
+    .cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin: 5rem;
+    }
+    .skillimg{
+        height: 15rem;
+        width: 15rem;
+        float: left;
+    }
+    .skill-card{
+        min-height: 8rem;
+        max-width: 15rem;
+    }
+    .footer{
+        background-color: #000000;
+        margin: 0px;
+        padding: 0px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    ul>li{
+        margin-top: 2rem;
+    }
+    .footer-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+      color: #f1ae28;
+    }
+    .contact-me > *{
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    h5{
+        color: #ff7300;
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+    .button-contact-me{
+        margin: 5rem;
+    }
